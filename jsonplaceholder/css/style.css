@@ -1,0 +1,10 @@
+#display-data{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.show-data{
+    border: 2px solid tomato;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
