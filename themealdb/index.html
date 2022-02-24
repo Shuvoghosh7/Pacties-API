@@ -6,12 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <h1 class="text-center text-success">The Meal BD</h1> 
    <div class="input-group mb-3 w-25 mx-auto">
     <input id="input-field" type="text" class="form-control" placeholder="search your food" aria-label="Recipient's username" aria-describedby="button-addon2">
     <button onclick="inputField()" class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
+  </div>
+  <!-- single meal details -->
+  <div id="meal-details" class="w-50 mx-auto">
+    
+    </div>
+  </div>
+  <!-- Error massage -->
+  <div id="error-search" class="error">
+    <h1>Search related result not found</h1>
   </div>
   <!-- Meal search area -->
   <div id="showMeals" class="row row-cols-1 row-cols-md-3 g-4">
